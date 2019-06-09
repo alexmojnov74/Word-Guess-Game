@@ -69,7 +69,7 @@ function updateDisplay() {
 
 
 function updateHangmanImage() {
-    document.getElementById("hangmanImage").src = "assets/images/" + (maxTries - remainingGuesses) + ".png";
+    document.getElementById("hangmanImage").src = "Assets/images/" + (maxTries - remainingGuesses) + ".png";
 };
 
 document.onkeydown = function(event) {
